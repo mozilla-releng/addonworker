@@ -22,9 +22,8 @@ aiohttp==3.5.2 \
     --hash=sha256:a2d86fda9b71a0a47f8fa8910322ca149cb9aa18f1649d7a625f97f0911c3bdc \
     --hash=sha256:d85ae8281d43016f4c6d9bee93f13b43933c405784ff3e0d68ff31b45290010a \
     --hash=sha256:3d851b15e615c0ad619de0990ab94c9721c335aebb58d160bf77a4af963c6b50
-arrow==0.12.1 \
-    --hash=sha256:a558d3b7b6ce7ffc74206a86c147052de23d3d4ef0e17c210dd478c53575c4cd \
-    # via scriptworker
+arrow==0.13.0 \
+    --hash=sha256:9cb4a910256ed536751cd5728673bfb53e6f0026e240466f90c2a92c0b79c895    # via scriptworker
 async-timeout==3.0.1 \
     --hash=sha256:0c3c816a028d47f659d6ff5c745cb2acf1f966da1fe5c19c77a70282b25f4c5f \
     --hash=sha256:4291ca197d287d274d0b6cb5d6f8f8f82d434ed288f962539ff18cc9012f9ea3
