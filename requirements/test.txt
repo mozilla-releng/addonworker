@@ -82,10 +82,9 @@ mccabe==0.6.1 \
 mock==2.0.0 \
     --hash=sha256:5ce3c71c5545b472da17b72268978914d0252980348636840bd34a00b5cc96c1 \
     --hash=sha256:b158b6df76edd239b8208d481dc46b6afd45a846b7812ff0ce58971cf5bc8bba
-more-itertools==5.0.0 \
-    --hash=sha256:c0a5785b1109a6bd7fac76d6837fd1feca158e54e521ccd2ae8bfe393cc9d4fc \
-    --hash=sha256:fe7a7cae1ccb57d33952113ff4fa1bc5f879963600ed74918f1236e212ee50b9 \
-    --hash=sha256:38a936c0a6d98a38bcc2d03fdaaedaba9f412879461dd2ceff8d37564d6522e4    # via pytest
+more-itertools==6.0.0 \
+    --hash=sha256:0125e8f60e9e031347105eb1682cef932f5e97d7b9a1a28d9bf00c22a5daef40 \
+    --hash=sha256:590044e3942351a1bdb1de960b739ff4ce277960f2425ad4509446dbace8d9d1    # via pytest
 pathmatch==0.2.1 \
     --hash=sha256:b35db907d0532c66132e5bc8aaa20dbfae916441987c8f0abd53ac538376d9a7 \
     # via flake8-per-file-ignores
