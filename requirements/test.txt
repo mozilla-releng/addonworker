@@ -121,9 +121,9 @@ snowballstemmer==1.2.1 \
     --hash=sha256:919f26a68b2c17a7634da993d91339e288964f93c274f1343e3bbbe2096e1128 \
     --hash=sha256:9f3bcd3c401c3e862ec0ebe6d2c069ebc012ce142cce209c098ccb5b09136e89 \
     # via pydocstyle
-testfixtures==6.5.2 \
-    --hash=sha256:7fed0630811db5706be55813b9bacb18c03476ac76852620bca62cd776c846eb \
-    --hash=sha256:ec8df1edc1b3276fefb9360f5f2574ced88cb8a3c7f57830c46cebc430971742    # via flake8-isort
+testfixtures==6.6.0 \
+    --hash=sha256:361e0a557f95e351ee4487a14eb26ccb1337038a33f16f588bcb0be90977d80b \
+    --hash=sha256:c20bd8f26be2afda72a11f98669da6fefab5f99ce5274021d36a59ea4f35f950    # via flake8-isort
 toml==0.10.0 \
     --hash=sha256:229f81c57791a41d65e399fc06bf0848bab550a9dfd5ed66df18ce5f05e73d5c \
     --hash=sha256:235682dd292d5899d361a811df37e04a8828a5b1da3115886b73cf81ebc9100e \
