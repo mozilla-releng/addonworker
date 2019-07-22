@@ -19,7 +19,7 @@ credentials:
 artifact_upload_timeout: 1200
 task_max_timeout: 1800
 task_script:
-  - 'app/bin/treescript'
+  - 'app/bin/addonscript'
   - '/app/configs/worker_config.json'
 verbose: true
 
