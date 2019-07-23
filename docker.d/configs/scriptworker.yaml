@@ -19,7 +19,7 @@ credentials:
 artifact_upload_timeout: 1200
 task_max_timeout: 1800
 task_script:
-  - 'app/bin/addonscript'
+  - '/app/bin/addonscript'
   - '/app/configs/worker_config.json'
 verbose: true
 
@@ -31,7 +31,6 @@ verify_cot_signature:
 cot_job_type: 'shipit'  # TODO: should we set this to 'addon'?
 cot_product: 'firefox'
 
-# TODO: do we need this here?
 # Calls to Github API are limited to 60 an hour. Using an API token allows to raise the limit to
 # 5000 per hour. https://developer.github.com/v3/#rate-limiting
 github_oauth_token: ""
