@@ -21,7 +21,7 @@ export TASK_SCRIPT_CONFIG="$CONFIGDIR/worker.json"
 mkdir -p -m 700 $CONFIGDIR
 
 # Eval JSON-e expressions in the config templates
-$CONFIGLOADER --worker-id-prefix=$PROJECT_NAME- $TEMPLATEDIR/scriptworker.yaml $CONFIGDIR/scriptworker.json
+$CONFIGLOADER --worker-id-prefix=${PROJECT_NAME}script-${ENV}- $TEMPLATEDIR/scriptworker.yaml $CONFIGDIR/scriptworker.json
 $CONFIGLOADER $TEMPLATEDIR/worker.json $CONFIGDIR/worker_config.json
 
 echo $ED25519_PRIVKEY > $CONFIGDIR/ed25519_privkey
