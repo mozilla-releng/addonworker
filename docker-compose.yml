@@ -4,6 +4,9 @@ services:
     build: '.'
     tty: true
     command: '/bin/bash'
+    volumes:
+      - './:/src'
+    working_dir: '/src'
     environment:
       - PATH=/app/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
