@@ -1,1 +1,0 @@
-"""Addonscript for scriptworker."""
